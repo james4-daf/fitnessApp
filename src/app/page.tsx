@@ -8,7 +8,7 @@ export default function Home() {
 
   // console.log(tasks)
   return (
-    <main className="flex flex-col items-center justify-between p-24">
+    <main >
       {/* <ul>
         {tasks?.map(({ text, _id, isCompleted }) => {
           return <li key={_id.toString()}>{text} is {isCompleted ? "done" : "todo"}</li>
